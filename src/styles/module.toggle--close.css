@@ -1,0 +1,36 @@
+.modal__close {
+	/*@include sans;*/
+	font-family: 'Secular One', sans-serif;
+	font-size: 2.5rem;
+	text-decoration: none;
+	padding: 1rem;
+	display: inline-block;
+	position: relative;
+	margin-top: 2rem;
+	color: #ccc;
+	color: red;
+	
+	/*&:hover {
+		color: black;
+	}*/
+}
+
+.modal__close:hover { color:black; }
+
+/*@media (min-width: $bp) {*/
+@media (min-width: 769px)	{
+	
+	.modal__close {
+	/*&__close {*/
+		padding-left: 0;
+		margin-top: 0;
+	}
+}
+
+.close {
+	/*@include sans;*/
+	font-family: 'Secular One', sans-serif;
+	font-size: 2.5rem;
+	text-decoration: none;
+	padding: 1rem;
+}

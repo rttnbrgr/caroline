@@ -1,0 +1,12 @@
+.isHidden {
+	transform: translateY(-100%);
+	opacity: 0;
+}
+
+@media (min-width: 769px) {
+	.isHidden {
+		transform: translateX(100%); 
+		color: pink;
+	}
+}
+ 

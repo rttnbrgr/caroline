@@ -1,0 +1,58 @@
+/*
+ *
+ * BASE STYLES
+ *
+ */
+
+/*// _base.reset.scss*/
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+img { max-width: 100%; }
+
+/*// _base.config.scss*/
+/*
+// typography
+@import 'https://fonts.googleapis.com/css?family=Inconsolata|Secular+One';
+@mixin mono { font-family: 'Inconsolata', monospace; }
+@mixin sans { font-family: 'Secular One', sans-serif; }
+
+// variables
+$yellow: #feda5f;
+$bp: 769px;
+$modal-width: 400px;
+
+a { color: inherit;	}
+body { 
+	// background-color: $yellow; 
+	background-color: #feda5f; 
+	// this was a debug style i think
+	transition: background-color .5s ease;
+}
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Inconsolata|Secular+One';
+a { color: inherit;	}
+body { 
+	background-color: #feda5f; 	
+	transition: background-color .5s ease;
+}
+
+/*
+ *
+ * MODULES
+ *
+ */
+
+
+ /*
+ *
+ * STATE
+ *
+ */
+
+

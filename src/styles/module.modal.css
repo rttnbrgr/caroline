@@ -1,0 +1,81 @@
+.modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	background-color: white;
+	z-index: 4;
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.6s ease;
+	/*// reset any transforms*/
+	transform: translateY(0%), translateX(0%);
+}
+	
+.modal__header {
+	text-transform: uppercase;
+	font-size: 2rem;
+	/*color: $yellow;*/
+	color: #feda5f;
+	/*@include sans;*/
+	font-family: 'Secular One', sans-serif;
+	line-height: 1;
+	/*// width: 100%;*/
+}
+
+.modal__text {
+	margin: 1rem auto 0;
+	max-width: 500px;
+	/*@include mono;*/
+	font-family: 'Inconsolata', monospace;
+	line-height: 1.4;
+}
+
+.modal__close {
+	/*@include sans;*/
+	font-family: 'Secular One', sans-serif;
+	font-size: 2.5rem;
+	text-decoration: none;
+	padding: 1rem;
+	display: inline-block;
+	position: relative;
+	margin-top: 2rem;
+	color: #ccc;
+	
+	/*&:hover {
+		color: black;
+	}*/
+}
+
+.modal__close:hover { color:black; }
+
+/*@media (min-width: $bp) {*/
+@media (min-width: 769px)	{
+	.modal {
+		left: initial;
+		width: 400px;
+		opacity: 1;
+		text-align: left;
+		align-items: flex-start;
+	}
+
+	.modal__close {
+	/*&__close {*/
+		padding-left: 0;
+		margin-top: 0;
+	}
+}
+
+.close {
+	/*@include sans;*/
+	font-family: 'Secular One', sans-serif;
+	font-size: 2.5rem;
+	text-decoration: none;
+	padding: 1rem;
+}
